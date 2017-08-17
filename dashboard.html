@@ -1,0 +1,57 @@
+<html>
+<head>
+  <title>My Dashboard</title>
+
+  <link rel="stylesheet" type="text/css"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="app.css">
+  
+  <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.js"></script>
+  <!--  <script type="text/javascript" 
+  		  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  -->
+  <script src="weather.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <h1>My Dashboard</h1>
+
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-md-4 col-sm-12">
+        <div id='weatherCard' class="card">
+          <h3 id="title"></h3>
+          <ul id="currTempIcon">
+            <li id="currTemp"></li>
+            <li id="icon"></li>
+          </ul>
+          <ul class="list-group">
+            <li id="description"></li>
+            <li id="hiLoTemp"></li>
+            <li id="windSpeed"></li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="col-md-4 col-sm-12">
+        <div id='sturbridgeTrafficCard' class="card">
+          Sturbridge Traffic Card
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-sm-12">
+        <div id='pike128TrafficCard' class="card">
+          pike/128 traffic card
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-sm-12">
+        <div id='FFInfoCard' class="card">
+          my FF information
+        </div>
+      </div>
+      
+    </div> <!-- row -->
+  </div> <!-- container -->
+</body>
+</html>
